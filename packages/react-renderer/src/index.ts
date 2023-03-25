@@ -9,7 +9,7 @@ import {
   tempRendererFactory,
   rendererFactory,
   types,
-} from '@alilc/lowcode-renderer-core';
+} from '@zat-design/lowcode-renderer-core';
 import ConfigProvider from '@alifd/next/lib/config-provider';
 
 window.React = React;

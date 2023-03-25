@@ -1,4 +1,4 @@
-import { blockRendererFactory, types } from '@alilc/lowcode-renderer-core';
+import { blockRendererFactory, types } from '@zat-design/lowcode-renderer-core';
 
 const raxBlockRendererFactory: () => any = () => {
   const OriginBlock = blockRendererFactory();

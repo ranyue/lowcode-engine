@@ -1,4 +1,4 @@
-import { componentRendererFactory, types } from '@alilc/lowcode-renderer-core';
+import { componentRendererFactory, types } from '@zat-design/lowcode-renderer-core';
 
 const raxComponentRendererFactory: () => any = () => {
   const OriginComponent = componentRendererFactory();

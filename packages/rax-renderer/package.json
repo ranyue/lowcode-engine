@@ -30,7 +30,7 @@
     "build": "build-scripts build"
   },
   "dependencies": {
-    "@alilc/lowcode-renderer-core": "1.1.3",
+    "@zat-design/lowcode-renderer-core": "1.1.3",
     "@alilc/lowcode-utils": "1.1.3",
     "rax-find-dom-node": "^1.0.1"
   },

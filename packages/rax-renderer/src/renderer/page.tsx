@@ -1,4 +1,4 @@
-import { pageRendererFactory, types } from '@alilc/lowcode-renderer-core';
+import { pageRendererFactory, types } from '@zat-design/lowcode-renderer-core';
 
 const raxPageRendererFactory: () => any = () => {
   const OriginPage = pageRendererFactory();

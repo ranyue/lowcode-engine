@@ -3,7 +3,7 @@
 import { Component, forwardRef } from 'rax';
 import PropTypes from 'prop-types';
 import { AppHelper } from '@alilc/lowcode-utils';
-import { utils, contextFactory } from '@alilc/lowcode-renderer-core';
+import { utils, contextFactory } from '@zat-design/lowcode-renderer-core';
 import componentRendererFactory from '../renderer/component';
 import blockRendererFactory from '../renderer/block';
 
