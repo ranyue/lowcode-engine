@@ -63,6 +63,7 @@ export default function rendererFactory(): IRenderComponent {
       onCompGetRef: () => { },
       onCompGetCtx: () => { },
       thisRequiredInJSE: true,
+      store: {},
     };
 
     static findDOMNode = findDOMNode;
@@ -163,7 +164,7 @@ export default function rendererFactory(): IRenderComponent {
     }
 
     render() {
-      const { schema, designMode, appHelper, components } = this.props;
+      const { schema, designMode, appHelper, components, store } = this.props;
       if (isEmpty(schema)) {
         return null;
       }
@@ -194,6 +195,7 @@ export default function rendererFactory(): IRenderComponent {
           appHelper,
           components: allComponents,
           engine: this,
+          store,
         } }, createElement(ConfigProvider, {
           device: this.props.device,
           locale: this.props.locale,

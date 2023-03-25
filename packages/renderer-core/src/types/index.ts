@@ -174,6 +174,9 @@ export interface IRendererProps {
    * 当开启组件未找到严格模式时，渲染模块不会默认给一个容器组件
    */
   enableStrictNotFoundMode?: boolean;
+
+  /** 全局store，模拟器环境无效果，渲染器环境正常 */
+  store: Record<string, any>
 }
 
 export interface IRendererState {
