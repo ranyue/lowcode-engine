@@ -20,7 +20,7 @@ import {
 import { IPublicTypeComponentSchema, IPublicEnumTransformStage, IPublicTypeNodeSchema, IPublicTypeNodeInstance } from '@alilc/lowcode-types';
 // just use types
 import { BuiltinSimulatorRenderer, Component, DocumentModel, Node } from '@alilc/lowcode-designer';
-import LowCodeRenderer from '@alilc/lowcode-react-renderer';
+import LowCodeRenderer from '@zat-design/lowcode-react-renderer';
 import { createMemoryHistory, MemoryHistory } from 'history';
 import Slot from './builtin-components/slot';
 import Leaf from './builtin-components/leaf';

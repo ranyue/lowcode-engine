@@ -2,7 +2,7 @@ import { ReactInstance, Fragment, Component, createElement } from 'react';
 import { Router, Route, Switch } from 'react-router';
 import cn from 'classnames';
 import { Node } from '@alilc/lowcode-designer';
-import LowCodeRenderer from '@alilc/lowcode-react-renderer';
+import LowCodeRenderer from '@zat-design/lowcode-react-renderer';
 import { observer } from 'mobx-react';
 import { getClosestNode, isFromVC, isReactComponent } from '@alilc/lowcode-utils';
 import { GlobalEvent } from '@alilc/lowcode-types';

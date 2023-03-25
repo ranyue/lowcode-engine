@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-react-simulator-renderer",
+  "name": "@zat-design/lowcode-react-simulator-renderer",
   "version": "1.1.3",
   "description": "react simulator renderer for alibaba lowcode designer",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@alilc/lowcode-designer": "1.1.3",
-    "@alilc/lowcode-react-renderer": "1.1.3",
+    "@zat-design/lowcode-react-renderer": "1.1.3",
     "@alilc/lowcode-types": "1.1.3",
     "@alilc/lowcode-utils": "1.1.3",
     "classnames": "^2.2.6",
@@ -36,8 +36,7 @@
     "@types/react-router": "5.1.18"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.zhonganinfo.com/"
   },
   "repository": {
     "type": "http",
